@@ -1,0 +1,42 @@
+/* fonts */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.text-primary {
+    color: rgb(60, 60, 218);
+}
+.dark-2 {
+    color: #474747;
+}
+
+/* nav styles */
+header {
+    background-color: #FFF8F3;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
