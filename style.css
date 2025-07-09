@@ -14,6 +14,23 @@
 .dark-2 {
     color: #474747;
 }
+.btn-primary {
+    background-color: rgb(60, 60, 218);
+    color: white;
+    font-size: 20px;
+    font-weight: semibold;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+}
+
+/* header */
+.header {
+    background-image: url('images/developer.png'), url('images/bg-image.png');
+    background-repeat: no-repeat;
+    background-position: 30px 20px, bottom right;
+    background-size: auto, 800px 600px;
+}
 
 /* nav styles */
 header {
@@ -24,6 +41,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
+    font-size: 20px;
 }
 .nav-title {
     font-weight: 800;
@@ -31,6 +49,7 @@ nav {
 }
 nav ul {
     display: flex;
+    align-items: center;
 }
 nav ul li {
     list-style: none;
@@ -39,4 +58,26 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    font-weight: bold;
+    font-size: 55px;
+}
+.banner-profile-pic {
+    width: 500px;
+    height: 670px;
 }
